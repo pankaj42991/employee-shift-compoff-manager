@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Comp-Off Summary"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TableLayout
+        android:layout_marginTop="20dp"
+        android:stretchColumns="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <TextView android:text="Earned"/>
+            <TextView
+                android:id="@+id/txtEarned"
+                android:text="0"
+                android:textStyle="bold"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="Used"/>
+            <TextView
+                android:id="@+id/txtUsed"
+                android:text="0"
+                android:textStyle="bold"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="Carry Forward"/>
+            <TextView
+                android:id="@+id/txtCarry"
+                android:text="0"
+                android:textStyle="bold"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnRefresh"
+        android:text="Refresh"
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.pktech.newapp.ui.dashboard.DashboardFragment"/>
+
+    <fragment
+        android:id="@+id/shiftsFragment"
+        android:name="com.pktech.newapp.ui.shifts.ShiftsFragment"/>
+
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="com.pktech.newapp.ui.calendar.CalendarFragment"/>
+
+    <fragment
+        android:id="@+id/reportsFragment"
+        android:name="com.pktech.newapp.ui.reports.ReportsFragment"/>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.pktech.newapp.ui.profile.ProfileFragment"/>
+
+</navigation>

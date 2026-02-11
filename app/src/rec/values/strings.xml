@@ -1,0 +1,16 @@
+<resources>
+  <string name="app_name">MyApp - Shift Manager</string>
+  
+  <string name="login">Login</string>
+  <string name="dashboard">Dashboard</string>
+  <string name="shifts">Shifts</string>
+  <string name="calendar">Calendar</string>
+  <string name="comp_off">Comp-Off</string>
+  <string name="reports">Reports</string>
+  <string name="profile">Profile</string>
+  <string name="admin_panel">Admin Panel</string>
+  
+  <string name="backup">Backup</string>
+  <string name="restore">Restore</string>
+  <string name="logout">Logout</string>
+</resources>
